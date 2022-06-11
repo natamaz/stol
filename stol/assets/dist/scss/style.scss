@@ -1,0 +1,126 @@
+@import "libs/fonts";
+@import "libs/fontello";
+@import "libs/flexbox";
+@import "libs/header";
+@import "libs/footer";
+@import "libs/popups";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Montserrat-Regular', serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  background-image: url('../images/fon.jpg');
+  background-repeat: repeat-y;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul,ol{
+  margin: 0;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+ul li,ol li{
+  margin: 0;
+}
+
+.clearfix{
+  &:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    clear: both;
+    height: 0;
+  }
+}
+
+.container{
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@-webkit-keyframes blick{60%{left:100%}to{left:130%}}
+@keyframes blick{60%{left:100%}to{left:130%}}
+.greenBlick{
+  animation: blick-slide linear infinite 4s;
+  position: relative;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    background: linear-gradient(90deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,.6) 100%);
+    width: 45px;
+    -webkit-transform: skewX(-22deg);
+    transform: skewX(-22deg);
+    left: -65%;
+    -webkit-animation-name: blick;
+    animation-name: blick;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1250px) {
+
+  .container{
+    padding: 0 80px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .container{
+    width: 1272px;
+    padding: 0;
+  }
+
+}
+
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <path d="M8.2122004,1.31525604 C9.19957486,0.821568809 10.8890643,0.421356237 11.9909141,0.421356237 L60,0.421356237 L60,10.4213562 L11.9909141,10.4213562 C10.8913626,10.4213562 9.19856206,10.0206373 8.2122004,9.52745644 L1.7877996,6.31525604 C0.800425144,5.82156881 0.801437944,5.02063727 1.7877996,4.52745644 L8.2122004,1.31525604 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="64" height="14">
+            <rect x="-2" y="-1.57864376" width="64" height="14" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-860.000000, -100.000000)">
+            <g id="lg00058-copy-8" transform="translate(860.000000, 100.000000)"></g>
+            <g id="Rectangle-+-Rectangle-2-+-Rectangle-2-+-Rectangle-2-+-Rectangle-2-+-Rectangle-2-+-Rectangle-3-+-Rectangle-4-+-Oval-2-+-₽-Mask-Copy" transform="translate(860.000000, 100.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <g id="Group-6" transform="translate(910.000000, 150.000000) rotate(-315.000000) translate(-910.000000, -150.000000) translate(880.000000, 140.000000)">
+                <rect id="Rectangle-5" fill="#00AD91" x="0" y="0" width="60" height="20"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="3" y="0" width="2" height="10"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="23" y="0" width="2" height="10"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="7" y="0" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="11" y="1.13686838e-13" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="15" y="-1.13686838e-13" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="19" y="0" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="43" y="0" width="2" height="10"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="27" y="-4.54747351e-13" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="31" y="1.13686838e-13" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="35" y="-1.13686838e-13" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="39" y="0" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="47" y="-1.13686838e-13" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="51" y="1.13686838e-13" width="2" height="5"></rect>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="55" y="-1.70530257e-13" width="2" height="5"></rect>
+            </g>
+            <g id="Group-5" transform="translate(909.804347, 150.400235) rotate(-45.000000) translate(-909.804347, -150.400235) translate(879.804347, 144.900235)">
+                <g id="Rectangle-7">
+                    <use fill="#00AF92" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                </g>
+                <path d="M10,2.42135624 L58,2.42135624 L58,5.42135624 L12,5.42135624 L12,8.42135624 L10,8.42135624 L9.11612701,7.53748325 C7.94742234,6.36877857 7.94921875,4.47213749 9.11612701,3.30522922 L10,2.42135624 Z" id="Rectangle-7" fill="#FFFFFF"></path>
+            </g>
+            <g id="Group-10" transform="translate(760.000000, 0.000000)"></g>
+        </g>
+    </g>
+</svg>

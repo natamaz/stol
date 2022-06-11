@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="50" cy="50" r="50"></circle>
+        <polygon id="path-3" points="780 140 810 140 840 140 840 175 780 175"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="35" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M822,154.994561 C822,153.892996 822.90195,153 824.00853,153 L831.99147,153 C833.10075,153 834,153.902344 834,154.994561 L834,174 L822,174 L822,154.994561 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="21" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M786,154.994561 C786,153.892996 786.889262,153 788.001743,153 L815.998257,153 C817.103789,153 818,153.902344 818,154.994561 L818,172.005439 C818,173.107004 817.110738,174 815.998257,174 L788.001743,174 C786.896211,174 786,173.097656 786,172.005439 L786,154.994561 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="32" height="21" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-760.000000, -100.000000)">
+            <g id="lg00058-copy-7" transform="translate(760.000000, 100.000000)"></g>
+            <g id="Group-2-Copy" transform="translate(760.000000, 100.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <use id="Rectangle" stroke="#00B093" mask="url(#mask-4)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-3"></use>
+            <use id="Rectangle" stroke="#00B093" mask="url(#mask-6)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-5"></use>
+            <use id="Rectangle" stroke="#00B093" mask="url(#mask-8)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-7"></use>
+            <text id="МЕБЕЛЬ" font-family="BloggerSans-Bold, Blogger Sans" font-size="17" font-style="condensed" font-weight="bold" letter-spacing="0.100000001" fill="#00B194">
+                <tspan x="779" y="138">МЕБЕЛЬ</tspan>
+            </text>
+            <rect id="Rectangle-11" fill="#00AD91" x="796" y="138" width="1" height="4"></rect>
+            <rect id="Rectangle-11-Copy-4" fill="#00AD91" x="781" y="137" width="1" height="4"></rect>
+            <rect id="Rectangle-11-Copy-5" fill="#00AD91" x="789" y="137" width="1" height="4"></rect>
+            <rect id="Rectangle-11-Copy-6" fill="#00AD91" x="828" y="138" width="1" height="4"></rect>
+            <rect id="Rectangle-11-Copy-7" fill="#00AD91" x="821" y="138" width="1" height="4"></rect>
+            <rect id="Rectangle-11-Copy" fill="#00AD91" x="805" y="138" width="1" height="4"></rect>
+            <rect id="Rectangle-11-Copy-2" fill="#00AD91" x="815" y="138" width="1" height="4"></rect>
+            <rect id="Rectangle-11-Copy-3" fill="#00AD91" x="835" y="138" width="1" height="4"></rect>
+            <rect id="Rectangle-8" fill="#00AF92" x="830" y="166" width="1" height="2"></rect>
+            <g id="Group-10" transform="translate(760.000000, 0.000000)"></g>
+        </g>
+    </g>
+</svg>

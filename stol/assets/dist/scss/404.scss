@@ -1,0 +1,126 @@
+.error{
+    position: relative;
+    height: 100vh;
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url('../images/rock1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-image: url('../images/rock2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+    &__wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0 10px;
+        text-align: center;
+        width: 100%;
+        &-img{
+            max-width: 100%;
+        }
+        &-heading{
+            color: #212121;
+            font-family: "Montserrat-Black";
+            font-size: 21px;
+            margin: 20px 0;
+        }
+        p{
+            color: #212121;
+            font-size: 14px;
+        }
+        &-btn{
+            display: block;
+            border-radius: 4px;
+            background-color: #63d027;
+            text-align: center;
+            padding: 10px;
+            color: #ffffff;
+            font-size: 14px;
+            font-family: 'Montserrat-SemiBold';
+            margin: 30px auto 0;
+            max-width: 352px;
+            &:hover{
+                box-shadow: -1px 13px 21px rgba(31, 31, 31, 0.3);
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px){
+    .error{
+        &::before{
+            top: 10%;
+            left: 1%;
+        }
+        &::after{
+            bottom: 10%;
+            right: 1%;
+        }
+        &__wrapper{
+            &-btn{
+                font-size: 16px;
+                padding: 24px 0;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px){
+    .error{
+        &::before{
+            width: 207px;
+            height: 259px;
+            left: 10%;
+        }
+        &::after{
+            width: 175px;
+            height: 164px;
+            right: 10%;
+        }
+        &__wrapper{
+            &-heading{
+                font-size: 24px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .error{
+        &::before{
+            top: 20%;
+        }
+        &::after{
+            bottom: 25%;
+            right: 7%;
+        }
+        &__wrapper{
+            position: static;
+            transform: none;
+            padding-top: 238px;
+            &-heading{
+                margin: 63px 0 16px;
+            }
+            &-btn{
+                margin-top: 74px;
+            }
+        }
+    }
+}
